@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Reminder: Identifiable, Hashable {
+    var name: String
+    let id = UUID()
+    var complete: Bool = false
+}
