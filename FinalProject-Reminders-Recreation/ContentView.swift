@@ -89,7 +89,7 @@ struct ContentView: View {
                                     .clipShape(Circle())
                                     
                                 Text("To-Do")
-                                    .font(.system(size: 15))
+                                    .font(.system(size: 16))
                             }
                         })
                         
